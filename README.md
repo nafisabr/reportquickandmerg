@@ -1,21 +1,21 @@
 # reportquickandmerg
-#comparision of quicksort and mergsort as the matter of time
-for sorting a list of numbers one way is to divide the list in two subunits and do it again and again till reach the only 2 num
-the bigger one could be find out
-then when we come through the last 2 num to the last 4 and then last 8 the subunit list will be sorted
-this is the overview of mergesort function
-inother hand another way of sorting called quicksort function is to consider one of the numbers in the list as a pivot
-then make two lists in right and left of that pivot 
-which means the lower values are added in left list and the higher ones are added to the right list
-the same happens to each right and lift lists as a new list till we see at last all the values are sorted
-now lets test the time to find out which of this two functions works faster 
-we will give each of the programs a random list of deferent ranges like 10,100,1000 
-keep doing it several times which this several times assigned as length and measure the time it takes to sort all of them
-as the result shows the seconds for each function:
-in most cases quick sort is faster but surprisingly in some cases mergsort is much more faster
-and that some cases are when the range in low and the length is high
+# comparision of quicksort and mergsort as the matter of time
+# for sorting a list of numbers one way is to divide the list in two subunits and do it again and again till reach the only 2 num
+# the bigger one could be find out
+# then when we come through the last 2 num to the last 4 and then last 8 the subunit list will be sorted
+# this is the overview of mergesort function
+# inother hand another way of sorting called quicksort function is to consider one of the numbers in the list as a pivot
+# then make two lists in right and left of that pivot 
+# which means the lower values are added in left list and the higher ones are added to the right list
+# the same happens to each right and lift lists as a new list till we see at last all the values are sorted
+# now lets test the time to find out which of this two functions works faster 
+# we will give each of the programs a random list of deferent ranges like 10,100,1000 
+# keep doing it several times which this several times assigned as length and measure the time it takes to sort all of them
+# as the result shows the seconds for each function:
+# in most cases quick sort is faster but surprisingly in some cases mergsort is much more faster
+# and that some cases are when the range in low and the length is high
 
-here is the comparison of the time result for quicksort and mergesort:
+# here is the comparison of the time result for quicksort and mergesort:
 
 Length=10,Range=10 , Quicksort: 0.000132 , Mergesort: 0.000230, percent:       0.58
 Length=10,Range=100 , Quicksort: 0.000129 , Mergesort: 0.000220, percent:       0.59
